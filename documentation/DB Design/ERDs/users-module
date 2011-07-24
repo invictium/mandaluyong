@@ -1,0 +1,47 @@
+tbl_users
+    user_id
+    profile_id
+    username
+    password
+    secret_question
+    secret_answer
+    api_token
+    activation_key
+    is_enabled
+    date_created
+    date_updated
+
+tbl_profiles
+    profile_id
+    full_name
+    site_url
+    organization
+    location
+    is_enabled
+    date_created
+    date_updated
+
+tbl_emails
+    email_id
+    profile_id
+    email
+    set_as_default
+    is_enabled
+    date_created
+    date_updated
+
+tbl_sshkeys
+    sshkey_id
+    title
+    key
+    is_enabled
+    date_created
+    date_updated
+    
+tbl_logs
+    log_id
+    log_datetime
+    profile_id
+    ip_address
+
+
